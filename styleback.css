@@ -5,6 +5,7 @@ body{margin: 0;padding: 0;box-sizing: border-box;background:#c8c8c8;font:600 16p
 /*#################################### The main ################################*/
 main {background-image: url(https://defimedia.info/sites/default/files/etudiants_0.jpg);background-size: cover;display: flex;justify-content: center;align-items: center;height: 100vh;}
 main section {display: flex;flex-direction: column;justify-content: center;align-items: center;padding: 20px 80px;}
+
 /*############# The container ###################*/
 .panel_admin{
 width:100%;max-width:500px;min-height:590px;position: absolute;box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);}
