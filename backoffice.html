@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleback.css">
+    <title>Back-office</title>
+</head>
+<body>
+    <!--Panel administrateur-->
+    <section class="panel_admin">
+        <form class="panel_admin_form">
+            <div class="div_modif">
+                <label class="label_color" for="titre_panel">Titre: </label><br>
+                <input type="text" name="titre_panel" id="titre_panel" placeholder="Exemple: Mon nouveau cours">
+            </div>
+            <div>
+                <label class="label_color" for="contenu">Contenu de votre cours</label><br>
+                <textarea class="area_contenu" id="contenu"></textarea>
+            </div>
+            <div class="bouton_add_file">
+                <label for="add_file">Ajouter un fichier</label><br>
+                <input type="file" name="add_file" id="add_file">
+            </div>
+            <div class="div_modif">
+                <label class="label_color" for="panel_date">Entrez la date</label><br>
+                <input type="date" name="date" id="panel_date">
+            </div>
+            <div class="div_btn_valider_adminpanel">
+                <input class="btn_valider_adminpanel" type="submit" value="Publier votre travail">
+            </div>
+        </form>
+    </section>
+    <!--Fin panel admin-->
+</body>
+</html>
