@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styleback.css">
     <title>Back-office</title>
 </head>
+
 <body>
     <!--Panel administrateur-->
     <section class="panel_admin">
@@ -14,23 +16,24 @@
                 <label class="label_color" for="titre_panel">Titre: </label><br>
                 <input type="text" name="titre_panel" id="titre_panel" placeholder="Exemple: Mon nouveau cours">
             </div>
+            <div class="div_modif">
+                <label class="label_color" for="auteur_panel">Auteur: </label><br>
+                <input type="text" name="auteur_panel" id="auteur_panel" placeholder="Exemple: nom de l'auteur">
+            </div>
             <div>
-                <label class="label_color" for="contenu">Contenu de votre cours</label><br>
+                <label class="label_color" for="contenu">Description de votre cours</label><br>
                 <textarea class="area_contenu" id="contenu"></textarea>
             </div>
-            <div class="bouton_add_file">
-                <label for="add_file">Ajouter un fichier</label><br>
-                <input type="file" name="add_file" id="add_file">
-            </div>
+
             <div class="div_modif">
-                <label class="label_color" for="panel_date">Entrez la date</label><br>
-                <input type="date" name="date" id="panel_date">
+                <label class="label_color" for="lien_panel">Lien </label><br>
+                <input type="url" name="lien_panel" id="lien_panel" placeholder="Exemple: Mon nouveau cours">
             </div>
-            <div class="div_btn_valider_adminpanel">
-                <input class="btn_valider_adminpanel" type="submit" value="Publier votre travail">
-            </div>
+            <div> <input type="submit" value="Enregister"> </div>
+
         </form>
     </section>
     <!--Fin panel admin-->
 </body>
+
 </html>
