@@ -9,7 +9,8 @@
 </head>
 
 <body>
-    <!--Panel administrateur-->
+    <main>
+    <!-- Panel administrateur -->
     <section class="panel_admin">
         <form class="panel_admin_form">
             <div class="div_modif">
@@ -20,20 +21,22 @@
                 <label class="label_color" for="auteur_panel">Auteur: </label><br>
                 <input type="text" name="auteur_panel" id="auteur_panel" placeholder="Exemple: nom de l'auteur">
             </div>
-            <div>
+            <div class="div_modif">
                 <label class="label_color" for="contenu">Description de votre cours</label><br>
-                <textarea class="area_contenu" id="contenu"></textarea>
+                <textarea class="area_contenu" id="contenu" placeholder="Decrivez en quelques ligne votre cours"></textarea>
             </div>
 
             <div class="div_modif">
                 <label class="label_color" for="lien_panel">Lien </label><br>
-                <input type="url" name="lien_panel" id="lien_panel" placeholder="Exemple: Mon nouveau cours">
+                <input type="url" name="lien_panel" id="lien_panel" placeholder="Mon nouveau cours">
             </div>
-            <div> <input type="submit" value="Enregister"> </div>
-
+            <div class="button-submit">
+                <input type="submit" value="Enregister" id="button_panel"> 
+            </div>
         </form>
     </section>
-    <!--Fin panel admin-->
+    <!-- Fin panel admin -->
+</main>
 </body>
 
 </html>
